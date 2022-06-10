@@ -12,6 +12,8 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
+        System.out.println("mi microservicio 2");
+        
         return "Hello World!";
     }
 
